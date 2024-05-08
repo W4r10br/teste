@@ -1,0 +1,259 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+/*Cor do fundo*/
+body{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Barra de cima*/
+.Barra{
+    display: inline-block;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    padding: 10px;
+}
+
+/*Barra de cima(botãos)*/
+.Barra button{
+    margin: 0 10px 0 10px;
+    width: 110px;
+    height: 100%;
+    border-radius: 25px;
+    border: none;
+    background-color: black;
+    color: grey;
+}
+
+/*Transparencia quando o mouse passa em cima*/
+.Barra button:hover{
+    margin: 0 10px 0 10px;
+    width: 120px;
+    height: 100%;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(114, 174, 223);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+/*Logo na barra*/
+.Barra button#b1{
+    background-image: url(https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihY3g1nH0glccWFSqMbGHcEZ19P1FGPBVCkQdPoZ6hljRr25FK5hMcqWdXNzHrNRtWiAo4kgnuyDsqQuJwn7DHYxJ1BKczCY4EQ=w1920-h945);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 60px;
+    cursor: default;
+}
+
+.Barra button#b6{
+    border: solid rgb(94, 94, 238);
+}
+
+.Barra button#b7{
+    background-image: url(https://icones.pro/wp-content/uploads/2021/02/instagram-logo-icone4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 60px;
+}
+
+.Barra button#b8{
+    background-image: url(https://www.steelemazda.com/wp-content/uploads/2019/02/facebook-minimal-logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 60px;
+}
+
+.Texto h1{
+    color: rgb(109, 109, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 100px;
+}
+
+.Texto h2{
+    color: rgb(109, 109, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 50px;
+    margin: -80px 0 -80px 0;
+}
+
+.Texto h3{
+    color: rgb(197, 197, 197);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 50px;
+    margin: -80px 0 -80px 0;
+}
+
+.Texto button#b9{
+    margin: 0 10px 0 10px;
+    width: 110px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    background-color: black;
+    color: grey;
+    border: solid rgb(94, 94, 238);
+    margin: 150px 900px 150px 900px;
+}
+
+.Texto button:hover#b9{
+    width: 110px;
+    height: 50px;
+    border-radius: 25px;
+    border: solid rgb(94, 94, 238);
+    background-color: rgb(114, 174, 223);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+/*Sobre nós imagem*/
+.Imagem button#b9{
+    margin: 0 10px 0 10px;
+    width: 1920px;
+    height: 945px;
+    border: none;
+    background-image: url(https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihZMJHK72y3e1rQqQNqfnstGsEL_AR2YJ4cun2R8Gzbkfz4Eqaaes1E84bwUf00Nmgh9EnHihPG2TGB2BuejaXKSPY095RzjvYQ=w1920-h945-rw-v1);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px 0 10px 0;
+}
+
+/*Planos*/
+.Planos{
+    display: inline-block;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 300px;
+    height: 200px;
+    margin: 10px 40% 10px 40%;
+    border-radius: 25px;
+}
+
+.Planos h2{
+    color: rgb(87, 226, 87);
+}
+
+/*Planos + Botões*/
+.Planos button{
+    border: none;
+    border-radius: 25px;
+    width: 200px;
+    height: 50px;
+}
+
+.Planos button:hover{
+    cursor: pointer;
+    background-color: rgb(114, 174, 223);
+    transition: 0.3s ease;    
+    border: none;
+    border-radius: 25px;
+    width: 200px;
+    height: 50px;
+}
+
+.Professores{
+    display: inline-block;
+    background-color: black;
+    width: 300px;
+    height: 455px;
+    margin: 10px 33% 10px 33%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.Professores button#b10{
+    margin: 10px 0 10px 0;
+    width: 200px;
+    height: 200px;
+    border: none;
+    border-radius: 25px;
+    background-image: url(https://akamai.sscdn.co/uploadfile/letras/fotos/4/e/5/2/4e52f3a02774898c54d616f74d2d393c.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Professores button#b11{
+    border: none;
+    border-radius: 25px;
+    width: 200px;
+    height: 50px;
+}
+
+.Professores button#b11:hover{
+    cursor: pointer;
+    background-color: rgb(114, 174, 223);
+    transition: 0.3s ease;    
+    border: none;
+    border-radius: 25px;
+    width: 200px;
+    height: 50px;
+}
+
+.Professores h2#money{
+    color: rgb(87, 226, 87);
+}
+
+.Professores2{
+    display: inline-block;
+    background-color: black;
+    width: 300px;
+    height: 455px;
+    margin: -465px 50% -465px 50%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.Professores2 button#b12{
+    margin: 10px 0 10px 0;
+    width: 200px;
+    height: 200px;
+    border: none;
+    border-radius: 25px;
+    background-image: url(https://i.em.com.br/hoX_2uc2fVIFTpMku0kQ4Ra5IIU=/1200x1200/smart/imgsapp.em.com.br/app/noticia_127983242361/2023/06/19/1509174/streamer-de-videogames-felps_1_559431.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Professores2 button#b13{
+    border: none;
+    border-radius: 25px;
+    width: 200px;
+    height: 50px;
+}
+
+.Professores2 button#b13:hover{
+    cursor: pointer;
+    background-color: rgb(114, 174, 223);
+    transition: 0.3s ease;    
+    border: none;
+    border-radius: 25px;
+    width: 200px;
+    height: 50px;
+}
+
+.Professores2 h2#money{
+    color: rgb(87, 226, 87);
+}
